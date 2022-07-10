@@ -85,6 +85,7 @@ public class ApplicationTemplateServiceCEImpl implements ApplicationTemplateServ
         }
 
         // uriComponents will build url in format: version=version&id=id1&id=id2&id=id3
+        // 
         UriComponents uriComponents = uriComponentsBuilder.build();
 
         return WebClient
